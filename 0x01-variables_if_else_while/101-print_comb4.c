@@ -1,4 +1,4 @@
- <stdio.h>
+ #include <stdio.h>
 
 /**
  * main - Prints numbers between 012 to 789.

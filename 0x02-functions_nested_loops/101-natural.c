@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -15,6 +16,6 @@ int main(void)
 		if ((a % 3) == 0 || (a % 5) == 0)
 			b += a;
 	}
-	pritnf("%d\n", b);
+	printf("%d\n", b);
 	return (0);
 }

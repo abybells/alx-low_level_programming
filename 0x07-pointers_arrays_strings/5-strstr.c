@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * _strstr - finds the first occurence of the substring.
- * needle in the string haystack.
- * @haystacj: entire string.
- * @needle: substring.
+ * _strstr - a function that locates a substring
+ * @haystack: locate a substring
+ * @needle: substring to locate
+ *
  * Return: pointer to the beginning of located substring or
  * NULL if the substring is not found.
  */

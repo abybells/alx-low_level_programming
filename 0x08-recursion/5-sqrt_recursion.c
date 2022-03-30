@@ -17,7 +17,7 @@ int sqtRecursive(int start, int end, int m)
 			return (mid);
 		/* following binary search */
 		if (mid * mid > m)
-			return (sqtRecursive(start, mid -1, m));
+			return (sqtRecursive(start, mid - 1, m));
 		if (mid * mid < m)
 			return (sqtRecursive(mid + 1, end, m));
 	}

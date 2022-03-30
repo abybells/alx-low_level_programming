@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 }
 /**
  * is_palind_recursive - checks if two chars of a string are equal
- * @n: string to be checked
+ * @s: string to be checked
  * @i: first index
  * @j: last index
  * Return: 1 if equal, else 0
@@ -39,5 +39,5 @@ int is_palindrome(char *s)
 	len = _strlen_recursion(s);
 	if (len == 0 || *s != s[len - 1])
 		return (0);
-	return (is_palind_recursive(s, 0, len -1));
+	return (is_palind_recursive(s, 0, len - 1));
 }

@@ -4,6 +4,7 @@
  * main - prints the minimum number of coins to make change for a given amount of money.
  * @argc: argument count
  * @argv: array of pointers to argument strings
+ * @cents: amount of cents you need to give back
  * Return: number of coins or 1
  */
 int main(int argc, char *argv[])

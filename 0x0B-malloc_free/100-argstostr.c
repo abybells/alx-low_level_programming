@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdlb.h>
+#include <stdlib.h>
 /**
  * *argstostr - concatenates all arguments to the program
  * @ac: argument count
  * @av: pointer to arguments
  * Return: pointer to new space in memory or null
  */
-char *argstostr(int ac, int av)
+char *arstostr(int ac, char **av)
 {
 	char *strDup;
 	int i, j, k, size;
@@ -25,7 +25,7 @@ char *argstostr(int ac, int av)
 	/* allocate memory for total number of chars and
 	 * new line for each word
 	 */
-	strDup = malloc(sizof(char) * size);
+	strDup = malloc(sizeof(char) * size);
 	if (strDup == NULL)
 		return (NULL);
 	k = 0;

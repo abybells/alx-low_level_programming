@@ -9,9 +9,9 @@
  */
 int main(int ac, char *av[])
 {
-	char *sstostr(ac, av);
+	char *s;
 
-	s = argostostr(ac, av);
+	s = argstostr(ac, av);
 	if (s == NULL)
 	{
 		return (1);

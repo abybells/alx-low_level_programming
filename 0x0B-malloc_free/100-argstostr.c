@@ -6,7 +6,7 @@
  * @av: pointer to arguments
  * Return: pointer to new space in memory or null
  */
-char *arstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *strDup;
 	int i, j, k, size;

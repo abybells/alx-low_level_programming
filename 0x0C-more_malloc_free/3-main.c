@@ -23,7 +23,7 @@ void simple_print_buffer(int *buffer, unsigned int size)
 		}
 		if (!(i % 10) && i)
 		{
-			printf("\n");
+t 		printf("\n");
 		}
 		printf("0x%02x", buffer[i]);
 		i++;

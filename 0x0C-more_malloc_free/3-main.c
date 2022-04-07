@@ -28,7 +28,7 @@ t 		printf("\n");
 		printf("0x%02x", buffer[i]);
 		i++;
 	}
-	print("\n");
+	printf("\n");
 }
 /**
  * main - check the code

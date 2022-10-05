@@ -13,6 +13,7 @@ int exponential_search(int *array, size_t size, int value);
 int help_binary(int *array, int value, size_t lo, size_t hi);
 void array_print(int *array, size_t lo, size_t hi);
 int interpolation_search(int *array, size_t size, int value);
+listint_t *jump_list(listint_t *list, size_t size, int value);
 
 
 
